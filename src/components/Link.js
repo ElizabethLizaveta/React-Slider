@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const StyledLink = styled.a`
-     color: $(props => props.active ? 'pink' : '#fff'};
+     color: ${props => props.active ? 'pink' : '#fff'};
      font-size: 14px;
      font-weight: 300;
      line-height: 24px;
